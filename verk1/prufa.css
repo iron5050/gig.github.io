@@ -1,0 +1,54 @@
+body{ 
+    background-color: pink; 
+   
+    
+    font-family: Arial;
+}
+
+
+
+a:visited {color: aqua
+
+}
+
+a:hover   {color: brown
+
+}
+
+a:active  {color: chartreuse}
+
+
+
+.hausA{
+    color: seagreen;
+    text-align: center;
+    font-family: Arial;
+}
+
+.hausB{
+    color: rebeccapurple;
+    font-family: Arial;
+}
+.hausC{
+    color: red;
+}
+.imagine{
+    color: red
+
+}
+
+
+.elvis{
+    text-align: center;
+    color: red
+}
+
+
+.radur{ color: red
+
+}
+
+.blar{ color: blue
+
+
+}
