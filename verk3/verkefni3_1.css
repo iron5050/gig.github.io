@@ -1,0 +1,67 @@
+.gridd_container{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja hægri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.h{
+    grid-area: haus;
+    background: yellow;
+}
+
+.hl1{
+    grid-area: hlekkur1;
+    background: burlywood
+}
+
+.hl2{
+    grid-area: hlekkur2;
+    background: burlywood
+}
+.hl3{
+    grid-area: hlekkur3;
+    background: burlywood
+}
+
+.hl4{
+    grid-area: hlekkur4;
+    background: burlywood
+}
+
+.hl5{
+    grid-area: hlekkur5;
+    background: burlywood
+}
+
+
+.vin{
+    grid-area: vinstri;
+    background: brown
+}
+
+.mid{
+    grid-area: midja;
+    background: salmon
+}
+
+.heagr{
+    grid-area: hægri;
+    background: brown
+}
+
+.fot{
+    grid-area: fotur;
+    background: lime
+}
+
+.textcent{
+    text-align: center
+}
+
+.parg{
+    padding: 40px
+}

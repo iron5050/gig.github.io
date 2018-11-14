@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.gridd_container{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "navn1 navn2 navn3 navn4 navn5"
+    "haus haus haus haus haus"
+    "vinstri vinstri vinstri midja heagri"
+    "fot1 fot2 fot2 fot3 fot4";
+}
+
+.n1{
+    grid-area: navn1;
+    background: darkblue;
+    font-family: anton;
+
+}
+
+.n2{
+    grid-area: navn2;
+    background: darkblue;
+    font-family: anton;
+}
+
+.n3{
+    grid-area: navn3;
+    background: darkblue;
+    font-family: anton;
+}
+
+.n4{
+    grid-area: navn4;
+    background: darkblue;
+    font-family: anton;
+}
+
+.n5{
+    grid-area: navn5;
+    background: darkblue;
+    font-family: anton;
+}
+
+.haus{
+    grid-area: haus;
+    background: silver;
+    font-family: anton;
+}
+
+.vin{
+    grid-area: vinstri;
+    background: mediumslateblue;
+    font-family: anton;
+}
+
+.mid{
+    grid-area: midja;
+    background: blue;
+    font-family: anton;
+}
+
+.heag{
+    grid-area: heagri;
+    background: blue;
+    font-family: anton;
+}
+
+.fot1{
+    grid-area: fot1;
+    background: silver;
+    font-family: anton;
+}
+
+.fot2{
+    grid-area: fot2;
+    background: silver;
+    font-family: anton;
+}
+.fot3{
+    grid-area: fot3;
+    background: silver;
+    font-family: anton;
+}
+
+.fot4{
+    grid-area: fot4;
+    background: silver;
+    font-family: anton;
+}
+
+.parg{
+    padding: 40px
+}
