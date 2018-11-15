@@ -1,0 +1,23 @@
+body{
+    background: crimson
+}
+
+.litur1{
+    background: goldenrod
+}
+
+.textcent{
+    text-align: center;
+}
+
+.haous{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mundstr{
+   width: 300px;
+   height: 200px 
+}
