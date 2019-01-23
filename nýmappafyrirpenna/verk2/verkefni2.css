@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+.listi li{
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed green;
+}
+
+.undirlina{
+    border-bottom: 1px solid
+
+
+}
+
+
+.bordiG{
+    border: 2px solid green  
+}
+
+
+.bordi{
+    border: 5px solid red;
+    margin:40px;
+    padding:40px;
+}
+
+.green{
+    color: green
+    
+}
+
+.raudur{
+    color: red
+
+}
+
+.bordiB{
+    border: 5px dashed blue;
+    padding:30px
+}
+
+
+.listi2 li{
+    display: inline;
+    border: 3px dashed blue;
+    padding: 1em;
+    margin: 1em
+    
+
+}
+
+
+
+
+.listi3 li{
+    display: inline;
+    border: 3px dashed red;
+    padding: 1em;
+    margin: 1em
+    
+
+}
+
+.dalkur{
+    float: left;
+    width: 33.33%;
+    border: 1px solid black;
+}
+
+.dalkur2{
+    float: left;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+.rauddalkur{
+    
+border: 1px solid red;
+padding: 5px
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+
